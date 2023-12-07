@@ -163,8 +163,8 @@ func normalizeNumberWords(input string) string {
 			minimum = numberWords[k]
 		}
 	}
-	
-	strings.Replace(temp, minimum.value, minimum.)
+
+	// strings.Replace(temp, minimum.value, minimum)
 
 	return temp
 }
